@@ -1,0 +1,104 @@
+* {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+body{
+    margin: 5px;
+    display: grid;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.site {
+    background-color: gold;
+    padding: 30px 2px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.nav1 {
+    background-color: pink;
+    padding: 25px 2px;
+}
+
+.main1{
+    display: grid;
+    gap: 5px;
+}
+
+.pt{
+    background-color: lightblue;
+    padding: 15px 380px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.meta{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.pm{
+    background-color: aquamarine;
+    padding: 180px 1px;
+}
+
+.content{
+    display: grid;
+    gap: 5px;
+}
+
+.mc{
+    background-color: lightgrey;
+    padding: 70px 0px;
+}
+
+.mimg{
+    background-color: yellow;
+    padding: 110px 0px;
+}
+
+.side{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.sb{
+    padding: 70px 10px;
+    background-color: orange;
+}
+
+.ads{
+    background-color: green;
+    padding: 70px 10px;
+}
+
+.os{
+    padding: 70px 10px;
+    background-color: violet;
+}
+
+footer{
+    background-color: burlywood;
+    padding: 30px 10px;
+    margin-top: 5px;
+}
